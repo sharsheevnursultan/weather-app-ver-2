@@ -73,7 +73,7 @@ const Weather = (props) => (
                 </span>
                 <span>
                     <img
-                        src={'http://openweathermap.org/img/w/' + props.weatherIcon + '.png'}
+                        src={'https://openweathermap.org/img/w/' + props.weatherIcon + '.png'}
                         alt={props.description}/>
                 </span>
             </div>}
